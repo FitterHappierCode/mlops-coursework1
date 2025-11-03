@@ -3,7 +3,7 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-data/*.csv
+# data/*.csv
 !data/incidents_clean.csv
 data/figures/*.png
 .vscode/

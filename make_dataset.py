@@ -39,4 +39,7 @@ for i in range(n):
 
 df = pd.DataFrame(data)
 df.to_csv("data/incidents_aggregated_5k.csv", index=False)
-print("✅ Fake incident dataset created: data/incidents_aggregated_5k.csv")
+out_path = "data/incidents_aggregated_5k.csv"
+print(f"✅ Fake incident dataset created: {out_path}")
+print(f"- rows generated: {len(df)}")
+print("- sample rows:\n", df.head(3).to_string(index=False))
